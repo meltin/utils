@@ -23,7 +23,7 @@ importers:
       '@types/node':
         specifier: ^24.13.3
         version: 24.13.3
-      '@xrryx/biome-config':
+      '@unmett/biome-config':
         specifier: ^1.4.3
         version: 1.4.3(@biomejs/biome@2.4.15)
       lefthook:
@@ -53,7 +53,7 @@ packages:
     hasBin: true
 
   '@babel/code-frame@7.27.1':
-    resolution: {integrity: sha512-cjQ7ZlQ0Mv3b47hABuTevyTuYN4i+loJKGeV9flcCgIK37cCXRh+L1bd3iBHlynerhQ7BhCkn2BPbQUL+rGqFg==, tarball: https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.27.1.tgz}
+    resolution: {integrity: sha512-cjQ7ZlQ0Mv3b47hABuTevyTuYN4i+loJKGeV9flcCgIK37cCXRh+L1bd3iBHlynerhQ7BhCkn2BPbQUL+rGqFg==}
     engines: {node: '>=6.9.0'}
 
   '@babel/helper-validator-identifier@7.27.1':
@@ -815,6 +815,12 @@ packages:
   '@types/resolve@1.20.2':
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
 
+  '@unmett/biome-config@1.4.3':
+    resolution: {integrity: sha512-MJ4JXfA59sA29/4sEcheOgG4S0u3x6qYLI63ZHk9Z3eOMGJmJ5EMdxryvD8kiJ82E0kvAXwu7/7LfStMfWKcIQ==}
+    hasBin: true
+    peerDependencies:
+      '@biomejs/biome': '>=2.0.0'
+
   '@vitest/expect@4.1.11':
     resolution: {integrity: sha512-VX2x5vNJXET47KAFzwERI+KRMtTTCSWTfSMKsW7JsUsXV4psq++e3DvZpuTDOpHcxytiDs6p2nhVb2tVDiiUYw==}
 
@@ -843,12 +849,6 @@ packages:
 
   '@vitest/utils@4.1.11':
     resolution: {integrity: sha512-zTCVGpyFsGWBhllOyKlTw/vnr6D9qxsfSDyfbyZmTyjHw5N/VuvzHpHoQjm2ZJzn4RJgx5w4r7V0er69CmLgPQ==}
-
-  '@xrryx/biome-config@1.4.3':
-    resolution: {integrity: sha512-VDKKUqsP9MGDjeSFvikM3iGAgg1oK4Opvkl1jIlezxK38EJAXYa1YE5/vAavBaEMWjUQjbGZxnoB+9x2DeD2tQ==}
-    hasBin: true
-    peerDependencies:
-      '@biomejs/biome': '>=2.0.0'
 
   acorn@8.15.0:
     resolution: {integrity: sha512-NZyJarBfL7nWwIq+FDL6Zp/yHEhePMNnnJ0y3qfieCrmNvYct8uvtiV41UvlSe6apAfk0fY1FbWx+NwfmpvtTg==}
@@ -2584,6 +2584,10 @@ snapshots:
 
   '@types/resolve@1.20.2': {}
 
+  '@unmett/biome-config@1.4.3(@biomejs/biome@2.4.15)':
+    dependencies:
+      '@biomejs/biome': 2.4.15
+
   '@vitest/expect@4.1.11':
     dependencies:
       '@standard-schema/spec': 1.1.0
@@ -2624,10 +2628,6 @@ snapshots:
       '@vitest/pretty-format': 4.1.11
       convert-source-map: 2.0.0
       tinyrainbow: 3.1.0
-
-  '@xrryx/biome-config@1.4.3(@biomejs/biome@2.4.15)':
-    dependencies:
-      '@biomejs/biome': 2.4.15
 
   acorn@8.15.0: {}
 

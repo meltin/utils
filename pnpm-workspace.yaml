@@ -1,6 +1,6 @@
 allowBuilds:
-  '@xrryx/biome-config': true
+  '@unmett/biome-config': true
   esbuild: true
   lefthook: true
 minimumReleaseAgeExclude:
-  - '@xrryx/biome-config@1.4.3'
+  - '@unmett/biome-config@1.4.3'
