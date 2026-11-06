@@ -1,17 +1,17 @@
 {
-	"name": "@unmett/utils",
+	"name": "@meltin/utils",
 	"type": "module",
 	"version": "0.2.1",
-	"description": "Opinionated collection of common JavaScript / TypeScript utils by @unmett",
-	"author": "unmett",
+	"description": "Opinionated collection of common JavaScript / TypeScript utils by @meltin",
+	"author": "meltin",
 	"license": "MIT",
-	"homepage": "https://github.com/unmett/utils",
+	"homepage": "https://github.com/meltin/utils",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/unmett/utils.git"
+		"url": "git+https://github.com/meltin/utils.git"
 	},
 	"bugs": {
-		"url": "https://github.com/unmett/utils/issues"
+		"url": "https://github.com/meltin/utils/issues"
 	},
 	"keywords": [
 		"utils"
@@ -52,7 +52,7 @@
 		"@changesets/changelog-github": "^0.7.0",
 		"@changesets/cli": "^2.31.1",
 		"@types/node": "^24.13.3",
-		"@unmett/biome-config": "^1.4.3",
+		"@meltin/biome-config": "^1.4.3",
 		"lefthook": "^2.1.12",
 		"tsx": "^4.23.13",
 		"typescript": "^6.0.3",
