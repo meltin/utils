@@ -1,6 +1,6 @@
 allowBuilds:
-  '@unmett/biome-config': true
+  '@meltin/biome-config': true
   esbuild: true
   lefthook: true
 minimumReleaseAgeExclude:
-  - '@unmett/biome-config@1.4.3'
+  - '@meltin/biome-config@1.4.3'

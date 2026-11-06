@@ -1,4 +1,4 @@
 {
 	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
-	"extends": ["@unmett/biome-config/base"]
+	"extends": ["@meltin/biome-config/base"]
 }
